@@ -5,8 +5,8 @@
     var top, left, width, height, backgroundColor;
 
     setCoordinates = function( newTop, newLeft ){
-      top = newTop+'px';
-      left = newLeft+'px';
+      top = newTop - newWidth.value / 2 +'px';
+      left = newLeft - newWidth.value / 2 +'px';
     }
 
     setSize = function(){
